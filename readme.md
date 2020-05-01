@@ -5,7 +5,7 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+Laravel package that generates random programming quotes.
 
 ## Installation
 
@@ -14,8 +14,40 @@ Via Composer
 ``` bash
 $ composer require winnie/winniequote
 ```
+Add service provider at `config/app.php` if you're using Laravel 5.4 and below. Latest Laravel versions have auto dicovery and automatically add service provider.
+
+```php
+'providers' => [
+    ...
+    Winnie\\WinnieQuote\\WinnieQuoteServiceProvider::class
+    ...
+];
+```
+Publish config files.(optional)
+```sh
+$ php artisan vendor:publish --provider='Winnie\WinnieQuote\WinnieQuoteServiceProvider'
+```
 
 ## Usage
+
+Helper function
+```blade
+
+{{ quote_programming() }} //generate single random quote 
+echo quote_programming(); //generate single random quote
+
+{{ quote_programming(5) }} //generate 5 random quotes in array form 
+echo quote_programming(10); //generate 10 random quotes in array form
+```
+Facade
+```blade
+
+{{ WinnieQuote::programming() }} //generate single random quote 
+echo WinnieQuote::programming(); //generate single random quote
+
+{{ WinnieQuote::programming(5) }} //generate 5 random quotes in array form
+echo WinnieQuote::programming(10); //generate 10 random quotes in array form
+```
 
 ## Change log
 
