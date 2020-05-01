@@ -25,7 +25,7 @@ Add service provider at `config/app.php` if you're using Laravel 5.4 and below. 
 ```
 Publish config files.(optional) If you want to add your own quote just add it at the last row of array at `config/winniequote.php` or you can fork this package and contribute.
 ```sh
-$ php artisan vendor:publish --provider='Winnie\WinnieQuote\WinnieQuoteServiceProvider'
+$ php artisan vendor:publish --provider="Winnie\WinnieQuote\WinnieQuoteServiceProvider"
 ```
 
 ## Usage
