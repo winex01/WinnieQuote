@@ -45,8 +45,8 @@ Facade
 {{ WinnieQuote::programming() }} //generate single random quote 
 echo WinnieQuote::programming(); //generate single random quote
 
-{{ WinnieQuote::programming(4) }} //generate 5 random quotes in array form
-echo WinnieQuote::programming(5); //generate 10 random quotes in array form
+{{ WinnieQuote::programming(4) }} //generate 4 random quotes in array form
+echo WinnieQuote::programming(5); //generate 5 random quotes in array form
 ```
 
 ## Change log
