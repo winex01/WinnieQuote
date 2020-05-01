@@ -36,8 +36,8 @@ Helper function
 {{ quote_programming() }} //generate single random quote 
 echo quote_programming(); //generate single random quote
 
-{{ quote_programming(5) }} //generate 5 random quotes in array form 
-echo quote_programming(10); //generate 10 random quotes in array form
+{{ quote_programming(2) }} //generate 2 random quotes in array form 
+echo quote_programming(3); //generate 3 random quotes in array form
 ```
 Facade
 ```blade
@@ -45,8 +45,8 @@ Facade
 {{ WinnieQuote::programming() }} //generate single random quote 
 echo WinnieQuote::programming(); //generate single random quote
 
-{{ WinnieQuote::programming(5) }} //generate 5 random quotes in array form
-echo WinnieQuote::programming(10); //generate 10 random quotes in array form
+{{ WinnieQuote::programming(4) }} //generate 5 random quotes in array form
+echo WinnieQuote::programming(5); //generate 10 random quotes in array form
 ```
 
 ## Change log
