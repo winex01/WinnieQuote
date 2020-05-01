@@ -21,6 +21,10 @@ $ composer require winnie/winniequote
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
 
+## Todo
+
+Create test
+
 ## Testing
 
 ``` bash
@@ -53,5 +57,5 @@ license. Please see the [license file](license.md) for more information.
 [link-downloads]: https://packagist.org/packages/winnie/winniequote
 [link-travis]: https://travis-ci.org/winnie/winniequote
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/winnie
+[link-author]: https://github.com/winex01
 [link-contributors]: ../../contributors

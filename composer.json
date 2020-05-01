@@ -1,16 +1,16 @@
 {
     "name": "winnie/winniequote",
-    "description": ":package_description",
-    "license": "license",
+    "description": ":Laravel package that generate random quote.",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Winnie A. Damayo",
+            "email": "winnie131212592@gmail.com",
+            "homepage": "https://github.com/winex01/"
         }
     ],
     "homepage": "https://github.com/winnie/winniequote",
-    "keywords": ["Laravel", "WinnieQuote"],
+    "keywords": ["Laravel", "WinnieQuote", "Random Quote Package", "Programming Quotes Package"],
     "require": {
         "illuminate/support": "~5|~6|~7"
     },
